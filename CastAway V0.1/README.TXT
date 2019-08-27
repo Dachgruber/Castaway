@@ -1,30 +1,11 @@
-Projekt: Zuul-besser
-Autoren: Michael Kölling und David J. Barnes
-Version: 2003.03.18
+Projekt: Castaway
+Autoren: Tom Jark, Charlotta HÃ¶hle, Marcel Siefke, Cornelius BrÃ¼tt
 
-Dieses Projekt ist Teil des Zusatzmaterials zu Kapitel 7 des Buches
+Dieses Projekt ist Teil des Informatikkurses der Q2 des Gymnasiums Kaltenkirchen
 
-   "Objektorientierte Programmierung mit Java - Eine praxisnahe Einführung
-    mit BlueJ"
-   David J. Barnes und Michael Kölling
-   Pearson Education Deutschland, 2003
+Ziel und Aufgabe war es, ein selbst iniziertes TextAdventure mit selbstgeschriebener Geschichte zu erstellen.
+Dabei wurden im Unterricht die Grundlagen von Programmieren in JAVA mit BlueJ erarbeitet, sodass wÃ¤hrend der Bearbeitungszeit
+gleichzeitig neues Wissen erlernt wird.
 
-Dieses Projekt ist das Grundgerüst für ein Adventure-Game.
-In dieser Version hat es ein paar Räume und bietet dem Spieler die 
-Möglichkeit, sich zwischen diesen Räumen zu bewegen. Das ist alles.
-
-Um ein Spiel zu starten, erzeugen Sie eine Instanz von 'Spiel' und rufen
-die Methode 'spielen' auf.
-
-Dieses Projekt wurde als Startpunkt für ein kleines Java-Projekt
-entworfen.
-
-Das Ziel ist, dieses Spiel zu erweitern:
-
-  - den Räumen Gegenstände hinzufügen (Gegenstände können ein Gewicht haben)
-  - mehrere Spieler zulassen
-  - Befehle hinzufügen ('pick', 'drop' und 'examine' zum Aufheben, Ablegen 
-    und Untersuchen von Gegenständen, 'read', ...)
-  - (eigentlich alles, was Sie sich vorstellen können)
-  
-Lesen Sie Kapitel 7 für eine detaillierte Beschreibung dieses Projekts.
+Das Spiel befindet sich noch in der Alpha Phase. Zum Starten muss es erst in einer BenutzeroberflÃ¤che geÃ¶ffnet und Ã¼ber eine
+Instanz der Klasse "Spiel" mit der Methoder "playGame()" gestartet werden
