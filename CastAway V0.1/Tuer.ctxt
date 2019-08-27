@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Tuer
+comment0.text=\r\n\ Eine\ T\u00FCr\ verbindet\ zwei\ R\u00E4ume.\r\n\ Einige\ T\u00FCren\ ben\u00F6tigen\ einen\ Schl\u00FCssel,\ um\ ge\u00F6ffnet\ zu\ werden.\r\n\ \r\n
+comment1.params=raum1\ richtung1\ raum2\ richtung2\ schluessel
+comment1.target=Tuer(Raum,\ java.lang.String,\ Raum,\ java.lang.String,\ Item)
+comment1.text=\r\n\ Erzeugt\ eine\ T\u00FCr\ zwischen\ zwei\ R\u00E4umen.\r\n\ Es\ wird\ auch\ ein\ Schl\u00FCssel\ als\ Parameter\ \u00FCbergeben,\ mit\ dem\ die\ T\u00FCr\ ge\u00F6ffnet\ werden\ kann.\r\n\ Wird\ ein\ Schl\u00FCssel\ angegeben,\ ist\ die\ T\u00FCr\ mit\ diesem\ Schl\u00FCssel\ verschlossen.\r\n
+comment2.params=schluessel
+comment2.target=boolean\ verschliessen(Item)
+comment2.text=\r\n\ Versuche\ die\ T\u00FCr\ mit\ dem\ Schl\u00FCssel\ zu\ verschlie\u00DFen.\r\n\ \r\n\ @return\ true,\ wenn\ die\ T\u00FCr\ erfolgreich\ verschlossen\ wurde.\r\n
+comment3.params=schluessel
+comment3.target=boolean\ aufschliessen(Item)
+comment3.text=\r\n\ Versuche\ die\ T\u00FCr\ mit\ dem\ Schl\u00FCssel\ zu\ \u00F6ffnen.\r\n\ \r\n\ @return\ true\ ,\ wenn\ die\ T\u00FCr\ erfolgreich\ aufgeschlossen\ wurde.\r\n
+comment4.params=fromRaum
+comment4.target=Raum\ oeffnen(Raum)
+comment4.text=\r\n\ Versuche,\ durch\ die\ T\u00FCr\ von\ einem\ Raum\ in\ den\ anderen\ zu\ gehen.\r\n\ \r\n\ @param\ fromRaum\ Der\ Raum,\ von\ dessen\ Seite\ man\ die\ T\u00FCr\ \u00F6ffnet.\r\n\ @return\ Der\ Raum\ auf\ der\ anderen\ Seite\ oder\ null,\ falls\ die\ T\u00FCr\ verschlossen\ ist.\r\n
+numComments=5

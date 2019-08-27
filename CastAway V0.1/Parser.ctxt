@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\r\n\ Dieser\ Parser\ liest\ Benutzereingaben\ und\ wandelt\ sie\ in\r\n\ Befehle\ f\u00FCr\ das\ Adventure-Game\ um.\ Bei\ jedem\ Aufruf\r\n\ liest\ er\ eine\ Zeile\ von\ der\ Konsole\ und\ versucht,\ diese\ als\r\n\ einen\ Befehl\ aus\ bis\ zu\ zwei\ W\u00F6rtern\ zu\ interpretieren.\ Er\r\n\ liefert\ den\ Befehl\ als\ ein\ Objekt\ der\ Klasse\ Befehl\ zur\u00FCck.\r\n\ \r\n\ Der\ Parser\ verf\u00FCgt\ \u00FCber\ einen\ Satz\ an\ bekannten\ Befehlen.\ Er\r\n\ vergleicht\ die\ Eingabe\ mit\ diesen\ Befehlen.\ Wenn\ die\ Eingabe\r\n\ keinen\ bekannten\ Befehl\ enth\u00E4lt,\ dann\ liefert\ der\ Parser\ ein\ als\ \r\n\ unbekannter\ Befehl\ gekennzeichnetes\ Objekt\ zur\u00FCck.\r\n\ \r\n\ Gruppe\:\ Max\ Mustermann,\ Mini\ Musterfrau,\ Willi\ Wichtig\r\n\ Verantwortlich\:\ Mini\ Musterfrau\r\n\ Version\:\ 1.x\r\n\ Datum\:\ xx.yy.zzzz\r\n
+comment1.params=
+comment1.target=Parser()
+comment2.params=
+comment2.target=Befehl\ liefereBefehl()
+comment3.params=
+comment3.target=void\ zeigeBefehle()
+comment3.text=\r\n\ Gib\ eine\ Liste\ der\ bekannten\ Befehlsw\u00F6rter\ aus.\r\n
+numComments=4
