@@ -17,9 +17,9 @@
  * //LandExpansion --> improved ending of the main game
  * //CaveExpansion --> simple dungeon-crawler to replace the basis cave
  
- * Team: Charlotta Höhle, Marcel Siefke, Tom Jark, Cornelius Brütt 
- * Responsible for code: Cornelius Brütt, xxxxx.xxxxx
- * Translation: Cornelius Brütt
+ * Team: Charlotta HÃ¶hle, Marcel Siefke, Tom Jark, Cornelius BrÃ¼tt 
+ * Responsible for code: Cornelius BrÃ¼tt, Marcel Siefke
+ * Translation: Cornelius BrÃ¼tt
  * Bugfixing: xxxxx.xxxxx
  * Version: 0.1
  * Datum: 27.08.2019
@@ -38,7 +38,7 @@ class Spiel
     public Spiel() 
     {
         Raum startRaum = createRooms();
-        spieler = new Spieler("Willi", startRaum);
+        spieler = new Spieler("Eric", startRaum);
         parser = new Parser();
     }
 
@@ -99,9 +99,9 @@ class Spiel
         Item plank = new Item("Plank","piece of wodden plank", 1.0 );
         beach.addItem(plank);
         
-        // die Ausgänge initialisieren
+        // die AusgÃ¤nge initialisieren
         // draussen.setAusgang("Norden", flur);
-        // flur.setAusgang("Süden", draussen);
+        // flur.setAusgang("SÃ¼den", draussen);
         
         new Tuer(beach, "north", pass, "east",null);
         new Tuer(cliffs, "east",beach ,"west",null);
@@ -145,14 +145,14 @@ class Spiel
     
     private void printEnding()
     {
-        System.out.println("The boat seems finished. While it’s just a log with some sticks stuck into it, It will be enough to get ");
+        System.out.println("The boat seems finished. While itâ€™s just a log with some sticks stuck into it, It will be enough to get ");
         System.out.println("my away from this place.");
         System.out.println("As I pushed the construct into the ocean, I felt cold water splashing up my legs. My whole body ");
         System.out.println("shivered, but I kept going as a fear for my live. Behind me, the volcano started to grumble violently, ");
         System.out.println("as a huge cloud shot out of the shaft. The boat shook heavily from one side to the other, but as ");
         System.out.println("soon as the sail catched the wind, I could stop paddling and let the nature do my work. I");
         System.out.println("succeeded. I escaped the island. Now, I have to find a way to save myself and get back to ");
-        System.out.println("civilisation…");
+        System.out.println("civilisationâ€¦");
         System.out.println();
         System.out.println("A couple hours into my ride I encounter a large cruise ship. They stopped, saved me and gotten ");
         System.out.println("me food and some water to drink. The captain managed to organize a rescue mission with a ");
@@ -186,8 +186,8 @@ class Spiel
         System.out.println();
         System.out.println("EARTHQUAKE");
         System.out.println();
-        System.out.println("Oh sh*t. *looks at the mountain – thick black smoke rises from the top* The mountain isn’t just an ");
-        System.out.println("ordinary mountain – it’s a f*cking volcano. And it seems active as well. I need to find a way to leave ");
+        System.out.println("Oh sh*t. *looks at the mountain â€“ thick black smoke rises from the top* The mountain isnâ€™t just an ");
+        System.out.println("ordinary mountain â€“ itâ€™s a f*cking volcano. And it seems active as well. I need to find a way to leave ");
         System.out.println("this place as soon as possible. Maybe I can build something that floats... something like a boat...");
         System.out.println();
         System.out.println();
@@ -295,7 +295,7 @@ class Spiel
     
     
     /** 
-     * Lässt ein Item im aktuellen Raum fallen.
+     * LÃ¤sst ein Item im aktuellen Raum fallen.
      */
     private void drop(Befehl befehl) 
     {
@@ -317,7 +317,7 @@ class Spiel
     }
     
     /**
-     * Gib die Items aus, die der Spieler aktuell trägt.
+     * Gib die Items aus, die der Spieler aktuell trÃ¤gt.
      */
     private void printItems() 
     {
@@ -344,7 +344,7 @@ class Spiel
     
     
     /**
-     * "Beenden" wurde eingegeben. Überprüfe den Rest des Befehls,
+     * "Beenden" wurde eingegeben. ÃœberprÃ¼fe den Rest des Befehls,
      * ob das Spiel wirklich beendet werden soll. Liefere 'true',
      * wenn der Befehl das Spiel beendet, 'false' sonst.
      */
@@ -359,7 +359,7 @@ class Spiel
     }
     
     
-/**  BEAMER ERSTMAL NICHT MIT IMPLEMENTIERT ------ MÖGLICHES SPEICHERN? 
+/**  BEAMER ERSTMAL NICHT MIT IMPLEMENTIERT ------ MÃ–GLICHES SPEICHERN? 
  * 
  * private void laden(Befehl befehl) 
     {
