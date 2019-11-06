@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\r\n\ Eine\ T\u00FCr\ verbindet\ zwei\ R\u00E4ume.\r\n\ Einige\ T\u00FCren\ ben\u00F6tigen\ einen\ Schl\u00FCssel,\ um\ ge\u00F6ffnet\ zu\ werden.\r\n\ \r\n
+comment1.params=room1\ direction1\ room2\ direction2\ key
+comment1.target=Door(Room,\ java.lang.String,\ Room,\ java.lang.String,\ Item)
+comment1.text=\r\n\ Erzeugt\ eine\ T\u00FCr\ zwischen\ zwei\ R\u00E4umen.\r\n\ Es\ wird\ auch\ ein\ Schl\u00FCssel\ als\ Parameter\ \u00FCbergeben,\ mit\ dem\ die\ T\u00FCr\ ge\u00F6ffnet\ werden\ kann.\r\n\ Wird\ ein\ Schl\u00FCssel\ angegeben,\ ist\ die\ T\u00FCr\ mit\ diesem\ Schl\u00FCssel\ locked.\r\n
+comment2.params=key
+comment2.target=boolean\ lock(Item)
+comment2.text=\r\n\ Versuche\ die\ T\u00FCr\ mit\ dem\ Schl\u00FCssel\ zu\ verschlie\u00DFen.\r\n\ \r\n\ @return\ true,\ wenn\ die\ T\u00FCr\ erfolgreich\ locked\ wurde.\r\n
+comment3.params=key
+comment3.target=boolean\ unlock(Item)
+comment3.text=\r\n\ Versuche\ die\ T\u00FCr\ mit\ dem\ Schl\u00FCssel\ zu\ \u00F6ffnen.\r\n\ \r\n\ @return\ true\ ,\ wenn\ die\ T\u00FCr\ erfolgreich\ aufgeschlossen\ wurde.\r\n
+comment4.params=fromRoom
+comment4.target=Room\ open(Room)
+comment4.text=\r\n\ Versuche,\ durch\ die\ T\u00FCr\ von\ einem\ Room\ in\ den\ anderen\ zu\ gehen.\r\n\ \r\n\ @param\ fromRoom\ Der\ Room,\ von\ dessen\ Seite\ man\ die\ T\u00FCr\ \u00F6ffnet.\r\n\ @return\ Der\ Room\ auf\ der\ anderen\ Seite\ oder\ null,\ falls\ die\ T\u00FCr\ locked\ ist.\r\n
+numComments=5

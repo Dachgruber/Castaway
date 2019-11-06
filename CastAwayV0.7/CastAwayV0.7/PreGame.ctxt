@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PreGame
+comment0.text=\r\n\ This\ class\ manages\ all\ activites\ happening\ before\ the\ exec\ of\ the\ main\ game.\ \r\n\ As\ the\ main\ GUI\ the\ launcher\ interface\ is\ used.\r\n\ \r\n\ @author\ Cornelius\r\n\ @version\ V0.1\ implemented\ in\ V0.6\ SaveTest\r\n
+comment1.params=
+comment1.target=PreGame()
+comment2.params=newText
+comment2.target=void\ newGame(java.lang.String)
+comment3.params=
+comment3.target=void\ run()
+comment4.params=filename
+comment4.target=void\ continueGame(java.lang.String)
+comment5.params=
+comment5.target=void\ run()
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SurvivalBook
+comment1.params=
+comment1.target=SurvivalBook()
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ makeGUI()
+numComments=4

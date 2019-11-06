@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Drink
+comment1.params=name\ description\ story\ mass\ nutrition
+comment1.target=Drink(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double)
+comment1.text=\r\n\ create\ a\ new\ item\ with\ name,description,the\ story\ text\ and\ the\ mass\r\n
+comment2.params=
+comment2.target=double\ getNutrition()
+numComments=3

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Source
+comment0.text=\r\n\ Class\ Source\ -\ \r\n\r\n\ Implementation\ of\ sources\ -\ infinite\ sources\ of\ one\ specific\ item.\r\n\ \r\n\ every\ source\ has\ its\ own\ name,\ description,\ story\ and\ mass\ (set\ to\ very\ heavy\ as\ sources\ can`t\ be\ picked\ up)\ as\ well\ as\r\n\ parameter\ for\ its\ specific\ item\ (name,\ description,story,mass,nutrition)\r\n\ \r\n\r\n
+comment1.params=name\ description\ story\ mass\ itemtype\ itemname\ itemdescription\ itemstory\ itemmass\ itemnutrition
+comment1.target=Source(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double)
+comment1.text=\r\n\ create\ a\ new\ item\ with\ name,description,the\ story\ text\ and\ the\ mass\r\n
+comment2.params=
+comment2.target=Item\ getSourceItem()
+comment3.params=
+comment3.target=double\ getItemMass()
+comment4.params=
+comment4.target=java.lang.String\ getItemDescription()
+comment5.params=
+comment5.target=java.lang.String\ getItemStory()
+comment6.params=
+comment6.target=java.lang.String\ getItemName()
+numComments=7

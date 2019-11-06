@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Save
+comment0.text=\r\n\ The\ class\ Save\ loads\ and\ saves\ the\ current\ state\ of\ the\ game\r\n\r\n\ @author\ Cornelius\ Br\u00FCtt\r\n\ @version\ V0.3,\ implementation\ in\ V0.6\ SaveTest\r\n
+comment1.params=
+comment1.target=Save()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Save\r\n
+comment2.params=game\ savename
+comment2.target=boolean\ saveGame(CastAway,\ java.lang.String)
+comment3.params=loadName
+comment3.target=boolean\ loadGame(java.lang.String)
+numComments=4

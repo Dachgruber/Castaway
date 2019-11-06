@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\r\n\ \r\n\ \r\n\ with\ the\ help\ of\ "guillaume\ polet"\ and\ the\ stackoverflow.com\ forum\:\ https\://stackoverflow.com/questions/12669368/java-how-to-extend-inputstream-to-read-from-a-jtextfield\r\n\ \r\n\ Gruppe\:\ Max\ Mustermann,\ Mini\ Musterfrau,\ Willi\ Wichtig\r\n\ Verantwortlich\:\ Mini\ Musterfrau\r\n\ Version\:\ 1.x\r\n\ Datum\:\ xx.yy.zzzz\r\n
+comment1.params=
+comment1.target=Parser()
+comment2.params=
+comment2.target=Befehl\ liefereBefehl()
+comment3.params=
+comment3.target=void\ zeigeBefehle()
+comment3.text=\r\n\ Gib\ eine\ Liste\ der\ bekannten\ Befehlsw\u00F6rter\ aus.\r\n
+numComments=4

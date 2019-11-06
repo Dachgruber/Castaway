@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Starter
+comment0.text=\r\n\ This\ class\ is\ used\ to\ be\ executed\ by\ the\ .jar\ file\r\n\r\n\ @author\ Cornelius\r\n\ @version\ V0.1\r\n
+comment1.params=
+comment1.target=Starter()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Starter\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

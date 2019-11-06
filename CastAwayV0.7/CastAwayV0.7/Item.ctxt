@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Class\ Item\ -\ \r\n\r\n\ Einbringen\ von\ Gegenst\u00E4nden\ in\ das\ Spiel.\r\n\ \r\n\ Jedes\ Item\ hat\ eine\ Beschreibung\ und\ eine\ Masse.\r\n\ \r\n\r\n
+comment1.params=
+comment1.target=Item()
+comment1.text=\r\n\ create\ a\ new\ item\ with\ name,description,the\ story\ text\ and\ the\ mass\r\n
+comment2.params=name\ description\ story\ mass
+comment2.target=Item(java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+numComments=3

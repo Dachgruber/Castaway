@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Story
+comment0.text=\r\n\ Class\ for\ printing\ story-related\ text\ to\ the\ terminal\ window\r\n\ \r\n\ Team\:\ Charlotta\ H\u00F6hle,\ Marcel\ Siefke,\ Tom\ Jark,\ Cornelius\ Br\u00FCtt\ \r\n\ Responsible\ for\ code\:\ Cornelius\ Br\u00FCtt,\ Charlotta\ H\u00F6hle\r\n\ Translation\:\ Cornelius\ Br\u00FCtt\r\n\ Bugfixing\:\ xxxxx.xxxxx\r\n\ Version\:\ 0.2\r\n\ Datum\:\ 27.08.2019\r\n
+comment1.params=
+comment1.target=Story()
+comment10.params=
+comment10.target=java.lang.String\ printDeathEnding()
+comment11.params=
+comment11.target=java.lang.String\ printQuit()
+comment2.params=
+comment2.target=void\ clearScreen()
+comment3.params=
+comment3.target=java.lang.String\ printLauncher()
+comment4.params=
+comment4.target=java.lang.String\ printStart()
+comment5.params=
+comment5.target=java.lang.String\ printStartGame()
+comment6.params=
+comment6.target=java.lang.String\ printHelp()
+comment7.params=
+comment7.target=java.lang.String\ printNight()
+comment8.params=
+comment8.target=java.lang.String\ printDay()
+comment9.params=
+comment9.target=java.lang.String\ printEnding()
+numComments=12

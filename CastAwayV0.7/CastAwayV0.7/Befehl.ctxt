@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Befehl
+comment0.text=\r\n\ Objekte\ dieser\ Klasse\ halten\ Informationen\ \u00FCber\ Befehle,\r\n\ die\ der\ Benutzer\ eingegeben\ hat.\ Ein\ Befehl\ besteht\ momentan\r\n\ aus\ zwei\ Zeichenketten\:\ einem\ Befehlswort\ und\ einem\ zweiten\r\n\ Wort.\ Beim\ Befehl\ "nimm\ karte"\ beispielsweise\ sind\ die\ beiden\r\n\ Zeichenketten\ "nimm"\ und\ "karte".\r\n\ \r\n\ Befehle\ werden\ von\ Benutzern\ dieser\ Klasse\ auf\ G\u00FCltigkeit\r\n\ \u00FCberpr\u00FCft.\ Wenn\ ein\ Spieler\ einen\ ung\u00FCltigen\ Befehl\ eingegeben\r\n\ hat\ (ein\ unbekanntes\ Befehlswort),\ dann\ ist\ das\ Befehlswort\ <null>.\r\n\r\n\ Wenn\ der\ Befehl\ nur\ aus\ einem\ Wort\ bestand,\ dann\ ist\ das\r\n\ zweite\ Wort\ <null>.\r\n\ \r\n\ Gruppe\:\ Max\ Mustermann,\ Mini\ Musterfrau,\ Willi\ Wichtig\r\n\ Verantwortlich\:Max\ Mustermann\r\n\ Version\:\ 1.x\r\n\ Datum\:\ xx.yy.zzzz\r\n
+comment1.params=erstesWort\ zweitesWort
+comment1.target=Befehl(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Erzeuge\ ein\ Befehlsobjekt.\ Beide\ W\u00F6rter\ m\u00FCssen\ angegeben\ werden,\r\n\ aber\ jedes\ oder\ beide\ d\u00FCrfen\ 'null'\ sein.\ Das\ Befehlswort\ sollte\r\n\ 'null'\ sein,\ wenn\ dieser\ Befehl\ als\ nicht\ vom\ Spiel\ erkannt\r\n\ gekennzeichnet\ werden\ soll.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getBefehlswort()
+comment2.text=\r\n\ Liefere\ das\ Befehlswort\ (das\ erste\ Wort)\ dieses\ Befehls.\r\n\ Wenn\ der\ Befehl\ nicht\ verstanden\ wurde,\ ist\ das\ Ergebnis\r\n\ 'null'.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getZweitesWort()
+comment3.text=\r\n\ Liefere\ das\ zweite\ Wort\ dieses\ Befehls.\ Liefere\ 'null',\ wenn\r\n\ es\ kein\ zweites\ Wort\ gab.\r\n
+comment4.params=
+comment4.target=boolean\ istUnbekannt()
+comment4.text=\r\n\ Liefere\ 'true',\ wenn\ dieser\ Befehl\ nicht\ verstanden\ wurde.\r\n
+comment5.params=
+comment5.target=boolean\ hatZweitesWort()
+comment5.text=\r\n\ Liefere\ 'true',\ wenn\ dieser\ Befehl\ ein\ zweites\ Wort\ hat.\r\n
+numComments=6
